@@ -14,6 +14,9 @@ if (empty($_POST['passwordConf'])) {
 if (empty($_POST['email'])) {
 	$errors['email'] = 'Enter your Email!';
 }
+if (!filter_var(empty($_POST['email']))) {
+	$errors['email'] = 'Invalid Email!';
+}
 $login = $_POST['login'];
 $email = $_POST['email'];
 $password = $_POST['password'];

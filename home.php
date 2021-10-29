@@ -67,6 +67,11 @@ $(document).ready(function(){
 <style>
 	html{
 		font-family: sans-serif;
+		font-weight: bold;
+	}
+	body{
+		background: rgb(92,5,207);
+		background: linear-gradient(90deg, rgba(92,5,207,1) 30%, rgba(9,121,16,1) 75%);
 	}
 	a{
 		text-decoration: none;
@@ -75,6 +80,7 @@ $(document).ready(function(){
 		margin: 8px;
 		color: red;
 		background: yellow;
+		font-weight: normal;
 	}
 	a:hover{
 		color: #fff;
