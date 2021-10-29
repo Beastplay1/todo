@@ -2,6 +2,7 @@
 
 session_start();
 session_destroy();
+setcookie('user','',time()-5,'/');
 header('location:index.php');
 
 
